@@ -1,0 +1,358 @@
+body{
+  background-color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 1000px;
+    margin: auto;
+}
+
+.containerLogo{
+    background-color: rgb(161, 161, 31);
+    background-image: url("images/header-backgroud.jpg");
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo{
+    margin-left: 10px ;
+}
+
+.tittle{
+   display: inline; 
+   text-align: center;
+   margin:auto;
+   line-height: 0px;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.containerLeft{
+    background-image:url("images/pantalla1.jpg");
+    background-repeat: round;
+    background-size:cover ;        
+    background-color: aquamarine;
+    width: 70%;
+    height: 550px;
+    float: left;
+    border-radius: 24px;
+
+}
+
+.textInput{
+    margin: 18% 14% 5% 14%;
+    width: 70%;
+    height: 60%;
+    color:darkblue;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+}
+
+.containerRight{
+    background-image: url("images/pantalla3.jpg");
+    background-repeat: round;
+    width:30%;
+    height: 550px;
+    float: right;
+    border-radius: 24px;
+
+}
+
+.containerRight h2{
+    text-align: center;
+    margin: 100px 50px 0 50px ;
+    font-family: 'Share Tech Mono', monospace;
+    color:darkblue;
+}
+
+.containerRight p{
+    margin: 5px 50px 5px 50px;
+    color:darkblue;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.textOutput{
+    width: 65%;
+    height: 60%;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    resize: none ;
+    font-size: 15px;
+    color: darkblue;
+}
+
+
+.resultado2{
+    height: 100%;
+}
+
+
+.containerLeft-button{
+    background-image: url("images/fondobotones.png");
+    background-repeat: round;
+    background-size: cover;
+    background-color: rgb(243, 239, 189);
+    float: left;
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.botonera{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(95, 95, 95);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.containerPegar, .containerEncriptar, .containerDesencriptar, .containerBorrar{
+    
+    display: inline-block;
+    margin-right: 13%;
+}
+
+.btnPegar{
+    border-radius: 100px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/boton3.png");
+    background-repeat: round;
+    display: block;
+    margin: auto;
+}
+
+.btnPegar:hover{
+    background-image: url("images/boton3hover.png");
+    background-repeat: round;
+}
+
+.btnEncriptar{
+    border-radius: 100px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-image: url("images/boton2.png");
+    background-repeat: round;
+    display: block;
+    margin: auto;
+    
+
+}
+.btnEncriptar:hover{
+    background-image: url("images/boton2hover.png");
+    background-repeat: round;
+
+}
+
+.btnDesencriptar{
+    border-radius: 100px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-image: url("images/boton4.png");
+    background-repeat: round;
+    display: block;
+    margin: auto;
+}
+
+.btnDesencriptar:hover{
+    background-image: url("images/boton4hover.png");
+    background-repeat: round;
+
+}   
+
+.btnBorrar{
+    border-radius: 100px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/boton1.png");
+    background-repeat: round; 
+    display: block;
+    margin: auto;
+}
+    .btnBorrar:hover{
+    background-image: url("images/boton1hover.jpg");
+    background-repeat: round; 
+
+    }
+
+.containerCopiar{
+    display: inline-block;
+    margin-left: 5%;
+}
+.btnCopiar{
+    border-radius: 100px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/boton5-1.png");
+    background-repeat: round; 
+    display: block;
+    margin: auto;
+}
+
+.btnCopiar:hover{
+    background-image: url("images/boton5hover.png");
+    background-repeat: round;
+}
+
+.ocultar{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .containerRight{
+        display:inline-block;
+        width: 100%;
+        background-image:url("images/pantalla4.jpg");
+        background-repeat: round;
+        background-size: cover;
+        height: 300px;
+
+    }
+
+    .containerLeft{
+        background-image:url("images/pantalla1.jpg");
+        background-repeat: round;
+        background-size:cover ;        
+        background-color: aquamarine;
+        width: 100%;
+        height: 400px;
+        border-radius: 24px;
+        display:inline-block;
+
+    
+    }
+
+    .containerLeft-button{
+        background-image: url("images/fondobotones.png");
+        background-repeat: round;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .containerRight p{
+        margin: 5px 50px 5px 50px;
+        color:darkblue;
+        text-align: center;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+    }
+    .containerRight h2{
+        text-align: center;
+        margin: 20px 50px 0 50px ;
+        font-family: 'Share Tech Mono', monospace;
+        color:darkblue;
+        font-size: 20px;
+    }
+    .botonera{
+        width: 98%;
+        height: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .botonera p{
+        font-size: 9px;
+    }
+
+    .btnPegar{
+        border-radius: 100px;
+        border: none;
+        width: 25px;
+        height: 25px;
+        background-image: url("images/boton3.png");
+        background-repeat: round;
+        display: block;
+        margin: auto;
+    }
+    .btnEncriptar{
+        border-radius: 100px;
+        border: none;
+        width: 35px;
+        height: 35px;
+        background-image: url("images/boton2.png");
+        background-repeat: round;
+        display: block;
+        margin: auto;
+        
+    
+    }
+    .btnDesencriptar{
+        border-radius: 100px;
+        border: none;
+        width: 35px;
+        height: 35px;
+        background-image: url("images/boton4.png");
+        background-repeat: round;
+        display: block;
+        margin: auto;
+    }
+    .btnBorrar{
+        border-radius: 100px;
+        border: none;
+        width: 25px;
+        height: 25px;
+        background-image: url("images/boton1.png");
+        background-repeat: round; 
+        display: block;
+        margin: auto;
+    }
+    .containerCopiar{
+        display: inline-block;
+        margin-left: 2%;
+    }
+    .btnCopiar{
+        border-radius: 100px;
+        border: none;
+        width: 25px;
+        height: 25px;
+        background-image: url("images/boton5-1.png");
+        background-repeat: round; 
+        display: block;
+        margin: auto;
+
+    }
+    .containerPegar, .containerEncriptar, .containerDesencriptar, .containerBorrar{
+        height: 17%;
+        width: 17%;
+        display: inline-block;
+        margin-right: 1px;
+    }
+}
+

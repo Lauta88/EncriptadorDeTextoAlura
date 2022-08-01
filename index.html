@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="containerLogo">
+            <img class="logo" src="images/Vector.png" alt="logo alura">
+            <h1 class="tittle">Encriptador de mensajes secretos</h1>
+        </div>
+        <div class="containerLeft">
+            <textarea class="textInput" type="text" name="" value="" placeholder="Ingrese el texto aqui."></textarea>
+            <h3>Solo letras minusculas y sin acentos.</h3>
+        </div>
+
+        <div class="containerRight">
+            <div class="resultado1">
+                <h2 class="">Ningun mensaje fue encontrado</h2>
+                <p class="">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="resultado2 ocultar">
+               <h2 class=""> Mensaje encriptado:</h2>
+               <textarea  class="textOutput " name="" id="" ></textarea>
+            </div>
+            
+        </div>
+        <div class="containerLeft-button">
+           <div class="botonera">
+                <div class="containerPegar">
+                    <input type="button" class="btnPegar" value="">
+                    <p>PEGAR</p>
+                </div>
+                <div class="containerEncriptar">
+                    <input type="button" class="btnEncriptar" value="">
+                    <p>ENCRIPTAR</p>
+                </div>
+                <div class="containerDesencriptar">
+                    <input type="button" class="btnDesencriptar" value="">
+                    <p>DESENCRIPTAR</p>
+                </div>
+                <div  class="containerBorrar">
+                    <input type="button" class="btnBorrar" value=""> 
+                    <p>BORRAR</p>
+                </div>
+                <div class="containerCopiar">
+                    <input type="button" class="btnCopiar " value=""> 
+                    <p>COPIAR</p>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
