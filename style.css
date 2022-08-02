@@ -28,7 +28,8 @@ body{
    display: inline; 
    text-align: center;
    margin:auto;
-   line-height: 0px;
+   
+
 }
 
 p{
@@ -228,6 +229,13 @@ h3{
 }
 
 @media (max-width: 1000px) {
+
+    .tittle{
+        display: inline; 
+        text-align: center;
+        margin:auto;
+        font-size: 25px;
+     }
     .containerRight{
         display:inline-block;
         width: 100%;
@@ -237,7 +245,7 @@ h3{
         height: 250px;
 
     }
-
+ 
     .containerLeft{
         background-image:url("images/pantalla1.jpg");
         background-repeat: round;
