@@ -1,6 +1,7 @@
 body{
   background-color: black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 3px;
 }
 
 .container{
@@ -10,11 +11,11 @@ body{
 }
 
 .containerLogo{
-    background-color: rgb(161, 161, 31);
-    background-image: url("images/header-backgroud.jpg");
+    background-color: rgb(206, 206, 122);
     width: 100%;
     height: 10%;
-    margin: auto;
+    margin: 0 auto 3px auto;
+    padding: 2px 0 2px 0;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -28,8 +29,7 @@ body{
    display: inline; 
    text-align: center;
    margin:auto;
-   
-
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p{
@@ -228,6 +228,14 @@ h3{
     display: none;
 }
 
+footer p {
+    color: rgb(206, 206, 122);
+    font-weight: 200;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 @media (max-width: 1000px) {
 
     .tittle{
@@ -246,9 +254,9 @@ h3{
 
     }
     .textInput{
-        margin: 65px 14% 5% 14%;
+        margin: 65px 14% 20px 14%;
         width: 70%;
-        height: 200px;
+        height: 180px;
         color:darkblue;
         font-size: 20px;
         border: none;
@@ -302,10 +310,18 @@ h3{
     }
     .botonera{
         width: 98%;
-        height: 90%;
+        height: 55%;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 25px;
+    } 
+
+    h3{
+        text-align: center;
+        color: rgb(95, 95, 95);
+        font-size: 15px;
+        margin-top: 5px;
     }
+
     .botonera p{
         font-size: 9px;
     }
@@ -354,7 +370,7 @@ h3{
     }
     .containerCopiar{
         display: inline-block;
-        margin-left: 6%;
+        margin-left: 8%;
     }
     .btnCopiar{
         border-radius: 100px;
