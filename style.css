@@ -235,7 +235,7 @@ footer p {
     color: rgb(206, 206, 122);
     font-weight: 200;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -253,7 +253,7 @@ footer p {
         background-image:url("images/pantalla4.jpg");
         background-repeat: round;
         background-size: cover;
-        height: 270px;
+        height: 268px;
 
     }
     .textInput{
@@ -300,8 +300,8 @@ footer p {
         background-size: cover;
         display: inline-block;
         width: 100%;
-        height: 90px;
-        border-radius: 20px;
+        height: 88px;
+        border-radius: 10px;
     }
 
     .container{
